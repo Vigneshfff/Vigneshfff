@@ -1,0 +1,26 @@
+JE Rationalization Data Automation:
+
+The below powerBi Report Has been implemented for month on month journal count with categories and analyzing the 
+percentage of business growth with the powerBi data visualization chart.This report is having more visuals and tabs to understand the
+data and count and percentage of growth on month by month on an incremental basis.And earlier the report designed 
+with manual data files uploada as an excel.Now we have automated the the process to load the data from 
+GCP(Google Cloud Platform) with uploading the files into the tables using the cloud storage bucket.
+So this will avoids the manual file uploads and errors in the data file.
+Then the ultimate objective of the below report automation is reduction of manual work,
+time savings in the data upload part and taking less refresh time in powerBi service with accurate data.
+
+SLA KPI Report(Service Level Agreement):
+
+Service level agreement PowerBi report includes both the powerBi design and organising the data in GCP.
+The below report we have designed as per the client requirent that we have designed with ten metrics which 
+can be used to analyze the performance,time,efficiency,accuracy,reduction level.
+
+
+Dynamic Risk Scoring monthly refresh:
+
+The dynamic risk scoring powerBi report enhancement as per the client requirement of refreshing the 
+month on month data to analyze the performance.And the data validation needs to be done for the given report 
+ after the refresh of the powerBi.For SLA KPI and dynamic risk scoring we have used separate files 
+with column difference from blacline line report.To avoid the time consumption and repetition of work we have implemented
+ the python function to pull the file from blackline for both the reports with applying different filters in the stored procedure. 
+  
